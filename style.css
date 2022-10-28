@@ -1,0 +1,57 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  body {
+    background: #D5E1EF;
+    font-family: 'Outfit', sans-serif;
+    font-size: 100%;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: white;
+    max-width: 20em; /*320/16*/
+    max-height: 31.0625em; /*497/16*/
+    border-radius: 1.25em; /*20/16*/
+    margin: 4em auto;
+  }
+
+  img {
+    max-width: 18em; /* 288/16*/
+    max-height: 18em; /* 288/16*/
+    border-radius: 0.625em; /*10/16*/
+    margin: 1em;
+  }
+
+  h1,
+  p {
+    margin: 0;
+  }
+
+  h1 {
+    color: #1F314F;
+    font-weight: 700;
+    font-size: 1.375em; /*22/16*/
+    line-height: 1.26em; /*27.72/22*/
+    margin-top: 0.5em;
+  }
+
+  p {
+    color: #7D889E;
+    font-weight: 400;
+    font-size: 0.9375em; /* 15/16*/
+    line-height: 1.18125em; /*18.9/16 */
+    letter-spacing: 0.011875em; /*0.19/16*/
+    margin-top: 1em;
+  }
+
+  section {
+    margin: 0em 2em 2.5em 2em;
+  }
+
+ 
+
+ 
